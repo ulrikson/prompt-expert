@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prompt Expert</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prompt Expert</h1>
+      <p>Better prompts; better results</p>
+
+      <div class="form-group">
+        <label for="role">Role</label>
+        <input type="text" id="role" placeholder="Give it a role. Example: 'Chef'" />
+        <small>👉 Detailed and accurate results</small>
+      </div>
+
+      <div class="form-group">
+        <label for="goal">Goal</label>
+        <input
+          type="text"
+          id="goal"
+          placeholder="Give it a goal. Example: 'Make healthy recipes'"
+        />
+        <small>👉 Improves complex task handling</small>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instructions</label>
+        <textarea
+          type="text"
+          id="instructions"
+          placeholder="Enter detailed instructions. Example: 'Make a salad with fresh vegetables'"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="context">Context</label>
+        <textarea
+          type="text"
+          id="context"
+          placeholder="Enter context. Example: a similar recipe"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+
+      <button id="generateBtn">Generate</button>
+      <div id="result"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
