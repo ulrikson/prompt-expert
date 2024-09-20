@@ -46,7 +46,7 @@ function handleInstructions(instructions) {
   if (instructions) {
     return `
       <instructions>
-      ${instructions}
+      ${instructions}. If you're unsure, ask for clarification. If you don't know how to proceed, say "I don't know" and ask for help.
       </instructions>
     `;
   }
@@ -75,7 +75,7 @@ function addPrecognition() {
 function addOutput() {
   return `
     <output>
-    Present your results in a clearly separated section using markdown.
+    Present your results in a clearly separated section using markdown. 
     </output>
   `;
 }
