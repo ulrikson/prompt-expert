@@ -67,7 +67,7 @@ function handleContext(context) {
 function addPrecognition() {
   return `
     <thinking>
-    Begin in <scratchpad> tags and write out and brainstorm a couple of paragraphs (not bullet points) on your plan for how you'll adhere to role, goal and instructions provided.
+    Begin in <scratchpad> tags and write out and brainstorm a couple of paragraphs (not bullet points) on your plan for how you'll adhere to role, goal and instructions provided. Think through the task step by step.
     </thinking>
   `;
 }
